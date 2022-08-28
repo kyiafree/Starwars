@@ -1,0 +1,60 @@
+Setup
+$ mkdir "Galaxy-Far-Far-Away"
+$ ls
+Galaxy-Far-Far-Away/
+$ cd "Galaxy-Far-Far-Away"
+$ ls
+$ touch commands.txt
+
+Set the Scene
+$ cd death_star
+$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+$ mkdir tattooine
+$ touch luke.txt ben_kenobi.txt
+$ mkdir millenium_falcon
+$ touch han_solo.txt chewbaca.txt
+
+Part II
+$ cd tattooine
+$ ls
+$ mv ./ben_kenobi.txt obi_wan.txt
+$ ls
+
+Part II
+$ ls
+$ cd death_star
+$ cp storm_trooper.txt '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away/tattooine'
+
+Part IV
+$ ls
+$ mv luke.txt obi_wan.txt millenium_falcon
+$ mv millenium_falcon/ '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away'
+$ ls
+$ cd ..
+$ ls
+$ mv millenium_falcon ./death_star
+$ ls
+$ mv princess_leia.txt '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away/death_star/millenium_falcon'
+
+Part V
+$ ls
+$ rm obi_wan.txt
+
+Part VI
+$ cd ..
+$ mkdir yavin_4
+$ ls
+$ cd death_star
+$ ls
+$ mv millenium_falcon/ '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away/yavin_4'
+$ cd ..
+$ ls
+$ cd yavin_4
+$ mkdir x_wing
+$ mv princess_leia.txt '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away/yavin_4'
+$ ls
+$ mv luke.txt '/c/Users/Boston/Desktop/DEV/Labs/Day 2/Starwars/Galaxy-Far-Far-Away/yavin_4/x_wing'
+
+
+
+
